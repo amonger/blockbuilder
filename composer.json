@@ -1,0 +1,17 @@
+{
+    "name": "frankstone/blockbuilder",
+    "authors": [
+        {
+            "name": "Alan Monger",
+            "email": "haveacigaro@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BlockBuilder\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/yaml": "^3.0"
+    }
+}

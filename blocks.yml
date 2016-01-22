@@ -1,0 +1,129 @@
+video-featured-product:
+    template: video-featured-product
+    fields:
+        title:
+            type: text
+        body:
+            type: textarea
+        url:
+            type: url
+
+featured-image-right:
+    template: featured-image-right
+    fields:
+        title:
+            type: text
+        body:
+            type: textarea
+        callToAction:
+            type: text
+        file:
+            type: files
+
+featured-image-left:
+    template: featured-image-left
+    fields:
+        title:
+            type: text
+        body:
+            type: textarea
+        callToAction:
+            type: text
+        file:
+            type: files
+
+masonry-grid:
+    template: masonry-grid
+    fields:
+        title:
+            type: text
+        products:
+            type: products
+
+promo-carousel:
+    template: promo-carousel
+    fields:
+        title:
+            type: text
+        products:
+            type: products
+
+strapline:
+    template: strapline
+    fields:
+        products:
+            product: products
+
+hero:
+    template: hero
+    fields:
+        title:
+            type: text
+        products:
+            type: products
+
+video-featured-product:
+    template: video-featured-product
+    fields:
+        title:
+            type: text
+        body:
+            type: textarea
+        url:
+            type: url
+
+carousel:
+    template: carousel
+    fields:
+        title:
+            type: text
+        file:
+            type: files
+
+full-half-image-left:
+    template: full-half-image-left
+    fields:
+        heading:
+            type: text
+        file:
+            type: files
+
+full-half-image-right:
+    template: full-half-image-right
+    fields:
+        heading:
+            type: text
+        file:
+            type: files
+
+full-image-background:
+    template: full-image-background
+    fields:
+        heading:
+            type: text
+        file:
+            type: files
+
+hero-carousel:
+    template: hero-carousel
+    fields:
+        firstProductLink:
+            type: url
+        firstProductImage:
+            type: files
+        secondProductLink:
+            type: url
+        secondProductImage:
+            type: files
+        thirdProductLink:
+            type: url
+        thirdProductImage:
+            type: files
+        forthProductLink:
+            type: url
+        forthProductImage:
+            type: files
+        fifthProductLink:
+            type: url
+        fifthProductImage:
+            type: files

@@ -1,0 +1,9 @@
+video-featured-product:
+    template: video-featured-product
+    fields:
+        title:
+            value: test
+        body:
+            value: test
+        url:
+            value: test
